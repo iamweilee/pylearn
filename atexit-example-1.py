@@ -16,4 +16,6 @@ atexit.register(exit, "hello", "world")
 
 '''
 该模块其实是一个对 sys.exitfunc 钩子( hook )的简单封装.
+
+为何最后注册的参数却最先被调用了呢......
 '''
